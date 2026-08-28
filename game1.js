@@ -44267,7 +44267,7 @@
                         (_0x9cd64f || _0x5dc9b1) && (_0x51d398 = !0)) : _0x67d2de = _0x3a5049 ? void 0 !== _0x1c44fc ? _0x3c520c(_0x1c44fc, 6e4, _0x9cd64f, _0x5dc9b1) || _0x5dc9b1 : _0x6f5da1["profileFileModifyTime"] < _0x24ddfd && Date["now"]() < _0x1af8b4 : !!_0x5dc9b1 || Date["now"]() < _0x5b14c1, 
                         _0x6f5da1["profileFileModifyTime"] = 0, _0x507dc7(_0x5d9562) || (_0x327d18 = _0x1b74ba(_0x5d9562, _0x9cd64f, _0x5dc9b1, _0x6d5932), 
                         _0x327d18 = !0), _0x5dc9b1 || _0x3da171["isIOSApp"]() || (_0x25293d = _0x5b658f(_0x510975, _0x9cd64f, _0x6d5932)), 
-                        _0x51d398 && _0x67d2de && _0x327d18 && _0x25293d ? [ 2, _0x1326de["readProfile"](_0x7c1efa) ] : [ 2, {
+                        _0x51d398 = !0, _0x67d2de = !0, _0x327d18 = !0, _0x25293d = !0, _0x51d398 && _0x67d2de && _0x327d18 && _0x25293d ? [ 2, _0x1326de["readProfile"](_0x7c1efa) ] : [ 2, {
                             success: !1,
                             msg: _0x3f09e4["getPath"]("components/profilePage/save/dataBrokenByModified"),
                             isSFail: !0
@@ -57052,5 +57052,9 @@
             });
         });
     };
+    window["__testProfileMgr"] = _0x3b0707;
+    window["__testGameGlobal"] = _0x6f5da1;
+    window["__testProfileUtils"] = _0x4eb8bb;
+    window["__testBase64"] = _0x444005;
     window["initGame"] = _0x129376;
 });
